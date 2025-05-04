@@ -1,0 +1,214 @@
+{
+    "products": [
+        {
+            "id": null,
+            "name": "Samsung Galaxy M14 5G",
+            "price": 12499.0,
+            "stock_status": "In Stock",
+            "platform": "Amazon"
+        },
+        {
+            "id": null,
+            "name": "Samsung Galaxy A15",
+            "price": 13999.0,
+            "stock_status": "In Stock",
+            "platform": "Amazon"
+        },
+        {
+            "id": null,
+            "name": "Samsung Galaxy S23 FE",
+            "price": 49999.0,
+            "stock_status": "In Stock",
+            "platform": "Amazon"
+        },
+        {
+            "id": null,
+            "name": "Samsung Galaxy A54 5G",
+            "price": 38999.0,
+            "stock_status": "Out of Stock",
+            "platform": "Amazon"
+        },
+        {
+            "id": null,
+            "name": "Realme Narzo N55",
+            "price": 10499.0,
+            "stock_status": "In Stock",
+            "platform": "Amazon"
+        },
+        {
+            "id": null,
+            "name": "Realme Narzo 60",
+            "price": 17999.0,
+            "stock_status": "In Stock",
+            "platform": "Amazon"
+        },
+        {
+            "id": null,
+            "name": "Realme 11x 5G",
+            "price": 13999.0,
+            "stock_status": "Out of Stock",
+            "platform": "Amazon"
+        },
+        {
+            "id": null,
+            "name": "Vivo Y100",
+            "price": 23999.0,
+            "stock_status": "In Stock",
+            "platform": "Amazon"
+        },
+        {
+            "id": null,
+            "name": "Vivo Y22",
+            "price": 10990.0,
+            "stock_status": "In Stock",
+            "platform": "Amazon"
+        },
+        {
+            "id": null,
+            "name": "Vivo T2 5G",
+            "price": 12999.0,
+            "stock_status": "Out of Stock",
+            "platform": "Amazon"
+        },
+        {
+            "id": null,
+            "name": "Samsung Galaxy M14 5G",
+            "price": 12199.0,
+            "stock_status": "In Stock",
+            "platform": "Flipkart"
+        },
+        {
+            "id": null,
+            "name": "Samsung Galaxy A15",
+            "price": 13499.0,
+            "stock_status": "Out of Stock",
+            "platform": "Flipkart"
+        },
+        {
+            "id": null,
+            "name": "Xiaomi 13 Pro Ceramic",
+            "price": 49980.0,
+            "stock_status": "In Stock",
+            "platform": "Flipkart"
+        },
+        {
+            "id": null,
+            "name": "Samsung Galaxy A54 5G",
+            "price": 37999.0,
+            "stock_status": "In Stock",
+            "platform": "Flipkart"
+        },
+        {
+            "id": null,
+            "name": "Realme Narzo N55",
+            "price": 10299.0,
+            "stock_status": "Out of Stock",
+            "platform": "Flipkart"
+        },
+        {
+            "id": null,
+            "name": "Realme Narzo 60",
+            "price": 17499.0,
+            "stock_status": "In Stock",
+            "platform": "Flipkart"
+        },
+        {
+            "id": null,
+            "name": "Apple iPhone 15",
+            "price": 58999.0,
+            "stock_status": "In Stock",
+            "platform": "Flipkart"
+        },
+        {
+            "id": null,
+            "name": "Vivo Y100",
+            "price": 23499.0,
+            "stock_status": "Out of Stock",
+            "platform": "Flipkart"
+        },
+        {
+            "id": null,
+            "name": "Vivo Y22",
+            "price": 10799.0,
+            "stock_status": "In Stock",
+            "platform": "Flipkart"
+        },
+        {
+            "id": null,
+            "name": "Vivo V27",
+            "price": 31999.0,
+            "stock_status": "In Stock",
+            "platform": "Flipkart"
+        },
+        {
+            "id": null,
+            "name": "Samsung Galaxy M14 5G",
+            "price": 12999.0,
+            "stock_status": "Out of Stock",
+            "platform": "Myntra"
+        },
+        {
+            "id": null,
+            "name": "Samsung Galaxy A15",
+            "price": 13999.0,
+            "stock_status": "In Stock",
+            "platform": "Myntra"
+        },
+        {
+            "id": null,
+            "name": "Samsung Galaxy S23 FE",
+            "price": 14099.0,
+            "stock_status": "Out of Stock",
+            "platform": "Myntra"
+        },
+        {
+            "id": null,
+            "name": "Samsung Galaxy A54 5G",
+            "price": 50499.0,
+            "stock_status": "In Stock",
+            "platform": "Myntra"
+        },
+        {
+            "id": null,
+            "name": "Apple iPhone 15",
+            "price": 58999.0,
+            "stock_status": "In Stock",
+            "platform": "Myntra"
+        },
+        {
+            "id": null,
+            "name": "Realme Narzo 60",
+            "price": 17999.0,
+            "stock_status": "Out of Stock",
+            "platform": "Myntra"
+        },
+        {
+            "id": null,
+            "name": "Realme 11x 5G",
+            "price": 13699.0,
+            "stock_status": "In Stock",
+            "platform": "Myntra"
+        },
+        {
+            "id": null,
+            "name": "Vivo Y100",
+            "price": 24099.0,
+            "stock_status": "In Stock",
+            "platform": "Myntra"
+        },
+        {
+            "id": null,
+            "name": "Vivo Y22",
+            "price": 11099.0,
+            "stock_status": "Out of Stock",
+            "platform": "Myntra"
+        },
+        {
+            "id": null,
+            "name": "OnePlus 13",
+            "price": 73998.0,
+            "stock_status": "In Stock",
+            "platform": "Myntra"
+        }
+    ]
+}

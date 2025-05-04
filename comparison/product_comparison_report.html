@@ -1,0 +1,125 @@
+
+   <html>
+<head>
+    <title>Product Comparison Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+            cursor: pointer;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        select {
+            margin-top: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product Comparison Report</h1>
+
+    <label for="platformFilter">Filter by Platform:</label>
+    <select id="platformFilter" onchange="filterTable()">
+        <option value="All">All</option>
+        <option value="Amazon">Amazon</option>
+        <option value="Flipkart">Flipkart</option>
+        <option value="Myntra">Myntra</option>
+    </select>
+
+    <table>
+<thead>
+<tr><th>Product Name         </th><th style="text-align: right;">  Price (₹)</th><th>Availability  </th><th>Platform  </th></tr>
+</thead>
+<tbody>
+<tr><td>Apple iPhone 15      </td><td style="text-align: right;">      58999</td><td>In Stock      </td><td>Flipkart  </td></tr>
+<tr><td>Apple iPhone 15      </td><td style="text-align: right;">      58999</td><td>In Stock      </td><td>Myntra    </td></tr>
+<tr><td>OnePlus 13           </td><td style="text-align: right;">      73998</td><td>In Stock      </td><td>Myntra    </td></tr>
+<tr><td>Realme 11x 5G        </td><td style="text-align: right;">      13999</td><td>Out of Stock  </td><td>Amazon    </td></tr>
+<tr><td>Realme 11x 5G        </td><td style="text-align: right;">      13699</td><td>In Stock      </td><td>Myntra    </td></tr>
+<tr><td>Realme Narzo 60      </td><td style="text-align: right;">      17999</td><td>In Stock      </td><td>Amazon    </td></tr>
+<tr><td>Realme Narzo 60      </td><td style="text-align: right;">      17499</td><td>In Stock      </td><td>Flipkart  </td></tr>
+<tr><td>Realme Narzo 60      </td><td style="text-align: right;">      17999</td><td>Out of Stock  </td><td>Myntra    </td></tr>
+<tr><td>Realme Narzo N55     </td><td style="text-align: right;">      10499</td><td>In Stock      </td><td>Amazon    </td></tr>
+<tr><td>Realme Narzo N55     </td><td style="text-align: right;">      10299</td><td>Out of Stock  </td><td>Flipkart  </td></tr>
+<tr><td>Samsung Galaxy A15   </td><td style="text-align: right;">      13999</td><td>In Stock      </td><td>Amazon    </td></tr>
+<tr><td>Samsung Galaxy A15   </td><td style="text-align: right;">      13499</td><td>Out of Stock  </td><td>Flipkart  </td></tr>
+<tr><td>Samsung Galaxy A15   </td><td style="text-align: right;">      13999</td><td>In Stock      </td><td>Myntra    </td></tr>
+<tr><td>Samsung Galaxy A54 5G</td><td style="text-align: right;">      38999</td><td>Out of Stock  </td><td>Amazon    </td></tr>
+<tr><td>Samsung Galaxy A54 5G</td><td style="text-align: right;">      37999</td><td>In Stock      </td><td>Flipkart  </td></tr>
+<tr><td>Samsung Galaxy A54 5G</td><td style="text-align: right;">      50499</td><td>In Stock      </td><td>Myntra    </td></tr>
+<tr><td>Samsung Galaxy M14 5G</td><td style="text-align: right;">      12499</td><td>In Stock      </td><td>Amazon    </td></tr>
+<tr><td>Samsung Galaxy M14 5G</td><td style="text-align: right;">      12199</td><td>In Stock      </td><td>Flipkart  </td></tr>
+<tr><td>Samsung Galaxy M14 5G</td><td style="text-align: right;">      12999</td><td>Out of Stock  </td><td>Myntra    </td></tr>
+<tr><td>Samsung Galaxy S23 FE</td><td style="text-align: right;">      49999</td><td>In Stock      </td><td>Amazon    </td></tr>
+<tr><td>Samsung Galaxy S23 FE</td><td style="text-align: right;">      14099</td><td>Out of Stock  </td><td>Myntra    </td></tr>
+<tr><td>Vivo T2 5G           </td><td style="text-align: right;">      12999</td><td>Out of Stock  </td><td>Amazon    </td></tr>
+<tr><td>Vivo V27             </td><td style="text-align: right;">      31999</td><td>In Stock      </td><td>Flipkart  </td></tr>
+<tr><td>Vivo Y100            </td><td style="text-align: right;">      23999</td><td>In Stock      </td><td>Amazon    </td></tr>
+<tr><td>Vivo Y100            </td><td style="text-align: right;">      23499</td><td>Out of Stock  </td><td>Flipkart  </td></tr>
+<tr><td>Vivo Y100            </td><td style="text-align: right;">      24099</td><td>In Stock      </td><td>Myntra    </td></tr>
+<tr><td>Vivo Y22             </td><td style="text-align: right;">      10990</td><td>In Stock      </td><td>Amazon    </td></tr>
+<tr><td>Vivo Y22             </td><td style="text-align: right;">      10799</td><td>In Stock      </td><td>Flipkart  </td></tr>
+<tr><td>Vivo Y22             </td><td style="text-align: right;">      11099</td><td>Out of Stock  </td><td>Myntra    </td></tr>
+<tr><td>Xiaomi 13 Pro Ceramic</td><td style="text-align: right;">      49980</td><td>In Stock      </td><td>Flipkart  </td></tr>
+</tbody>
+</table>
+
+    <script>
+        function filterTable() {
+            var platform = document.getElementById("platformFilter").value;
+            var rows = document.querySelectorAll("table tr");
+
+            rows.forEach((row, index) => {
+                if (index === 0) return;  // header
+                const platformCell = row.cells[3];
+                if (!platformCell) return;
+                row.style.display = (platform === "All" || platformCell.innerText === platform) ? "" : "none";
+            });
+        }
+
+        // Sort by column when header clicked
+        document.querySelectorAll("th").forEach((th, idx) => {
+            th.addEventListener("click", () => {
+                const table = th.closest("table");
+                const rows = Array.from(table.querySelectorAll("tr:nth-child(n+2)"));
+                const ascending = th.classList.toggle("asc");
+
+                rows.sort((a, b) => {
+                    let aText = a.children[idx].innerText;
+                    let bText = b.children[idx].innerText;
+
+                    const aNum = parseFloat(aText.replace(/[₹,]/g, ''));
+                    const bNum = parseFloat(bText.replace(/[₹,]/g, ''));
+                    const isNumeric = !isNaN(aNum) && !isNaN(bNum);
+
+                    return ascending
+                        ? (isNumeric ? aNum - bNum : aText.localeCompare(bText))
+                        : (isNumeric ? bNum - aNum : bText.localeCompare(aText));
+                });
+
+                rows.forEach(row => table.appendChild(row));
+            });
+        });
+    </script>
+</body>
+</html>
